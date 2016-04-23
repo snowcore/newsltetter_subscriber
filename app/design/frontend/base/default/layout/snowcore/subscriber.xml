@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<layout>
+    <default>
+        <reference name="footer.newsletter">
+            <block type="snowcore_subscriber/newsletter_additional" name="newsletter.additional" template="snowcore/subscriber/additional.phtml"/>
+        </reference>
+    </default>
+</layout>

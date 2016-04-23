@@ -1,0 +1,8 @@
+<?php /** @var Snowcore_Subscriber_Block_Newsletter_Additional $this */ ?>
+<div class="input-box">
+    <select name="country_code">
+        <?php foreach ($this->getCountriesOptions() as $_option): ?>
+        <option value="<?php echo $_option['value'] ?>"><?php echo $_option['label'] ?></option>
+        <?php endforeach; ?>
+    </select>
+</div>
